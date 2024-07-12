@@ -2,6 +2,7 @@ import { Box, Typography } from '@mui/material';
 import React from 'react';
 import Header from '../components/header';
 import Carousel from '../components/carousel';
+import GameCarousel from '../components/GameCarousel';
 //import Slider from '../components/slider';
 
 
@@ -15,9 +16,7 @@ const Home = () => {
         </Typography>
       </Box>
       <Carousel/>
-      <Typography variant="h3" sx={{ fontWeight: 'bold', fontSize: '24px', ml: 2 }}>
-          THEME
-        </Typography>
+         <GameCarousel/>
     </Box>
   );
 }
