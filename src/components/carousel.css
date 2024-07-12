@@ -1,6 +1,6 @@
 .avatar-box{
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     aspect-ratio: 1/1;
     background-image: linear-gradient(160deg, #56565a 5%,#3a3a3a, #000000);
     border-radius: 50%;
@@ -10,26 +10,27 @@
     margin-bottom: 8px;
 }
 .avatar-profile-image{
-    width:50px;
-    height: 50px;
+    width:100px;
+    height: 100px;
     border-radius: 50%;
-    margin: 3px;
-    border: 3px solid white;
+    /* margin: 3px; */
 }
 .carousel-status{
     padding: 16px 0px;
 }
 .carousel-body{
     display: flex;
+    align-items: center;
     flex-direction: row;
     overflow-x: scroll;
     /* overflow-y: none; */
-    height: 119px;
+    height: 140px;
     border: 1px solid rgba(219,219,219);
     background-color: white;
     border-radius: 8px;
     position: relative;
     scroll-behavior: smooth;
+    gap: 20px;
 }
 .carousel-body::-webkit-scrollbar {
     display: none;

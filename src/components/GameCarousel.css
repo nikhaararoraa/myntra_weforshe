@@ -1,4 +1,3 @@
-/* GameCarousel.css */
 @charset "utf-8";
 
 /******* Fonts Import Start **********/
@@ -105,6 +104,12 @@ button {
   -webkit-transition: all 0.4s ease-in-out;
   cursor: pointer;
 }
+.game-section .item-background {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
 .game-section .item.active {
   width: 500px;
   box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
@@ -152,7 +157,8 @@ button {
   margin: 0 auto;
   padding: 0 40px;
 }
-.slick-prev, .slick-next {
+.slick-prev,
+.slick-next {
   z-index: 1;
   width: 40px;
   height: 40px;
@@ -243,7 +249,7 @@ button {
     padding: 30px 15px 20px;
   }
   .game-section .item {
-    margin: 0 10px 40px;
+    margin: 0 20px 60px;
     width: 200px;
     height: 280px;
   }
