@@ -1,0 +1,20 @@
+.card-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  }
+  
+  .sports-pic {
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: width 1s;
+  }
+  
+  .tiles {
+    text-align: center;
+    max-width: 235px;
+    margin-bottom: 2rem;
+  }
+  

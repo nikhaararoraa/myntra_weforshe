@@ -1,6 +1,5 @@
 import React from 'react';
-import { Box, Typography, Avatar, Button, IconButton } from '@mui/material';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import { Box, Typography, Avatar, Button } from '@mui/material';
 
 const Header = ({ variableValue, isHome }) => {
   return (
@@ -21,10 +20,7 @@ const Header = ({ variableValue, isHome }) => {
           {variableValue}
         </Button>
       ) : (
-        <Box display="flex" alignItems="center">
-          <IconButton sx={{ color: 'white' }}>
-            <ArrowBackIcon />
-          </IconButton>
+        <Box display="flex" alignItems="center" color='purple'>
           <Typography variant="h6">{variableValue}</Typography>
         </Box>
       )}
